@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="join.css">
+    <title>Join in form</title>
+</head>
+<body>
+    <form action="action_page.php">
+        <div class="container-sign">
+          <h1 class="prijava">Prijavi se</h1>
+          <p class="prijava">Reci nam svoje podatke</p>
+          <hr>
+          <div class="in-sign">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Upiši mail" name="email" required id="ime">
+      
+          <label for="psw"><b>Šifra</b></label>
+          <input type="password" placeholder="Unesi lozinku" name="psw" required id="pass">
+      
+          <label for="psw-repeat"><b>Šifra još jednom</b></label>
+          <input type="password" placeholder="Opet lozinka" name="psw-repeat" required>
+      
+          <label id="check">
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Zapamti za ubuduće
+          </label>
+      
+          <p>Ovom prijavom pristaješ na naše uvjete <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="dolje">
+            <button type="button" id="cancelbtn">Nećeš valjda</button>
+            <button type="submit" id="signupbtn">Postani BeerBrewer</button>
+          </div>
+        </div>
+        </div>
+      </form> 
+      <script src="join.js"></script>
+</body>
+</html>

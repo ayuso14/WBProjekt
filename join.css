@@ -1,0 +1,49 @@
+.container-sign {
+    display: inline-block; 
+    height: 700px;
+    margin: 150px 400px 250px 300px;  
+    border: 5px solid black; 
+    background-color: white;
+    text-align: center;  
+    font-family: 'Mina', sans-serif; 
+    border: 2px solid #F9A825;
+    border-radius: 5%; 
+    background-image: url(back.png);
+    }
+
+.in-sign {
+    display: grid;
+    text-align: center; 
+    font-family: 'Mina', sans-serif; 
+    font-size: 20px; 
+     
+}
+.prijava {
+    font-size: 25px; 
+    color:#F57F17;
+}
+
+.in-sign input {
+    margin: 0px 175px 0px 175px ;
+    border: 2px solid #F9A825;
+    border-radius: 5px; 
+    width: 350px;
+    height: 40px;
+}
+
+.in-sign button {
+    border-radius: 5px; 
+    color: #F57F17; 
+    border: 2px solid; 
+    height: 30px;
+}
+
+p {
+  color: #F57F17; 
+}
+
+body {
+  background: url(back.png) no-repeat; 
+  display: block; 
+  background-color: black; 
+}
